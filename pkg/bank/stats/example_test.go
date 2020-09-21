@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/Aziz-eng/bank/pkg/bank/types"
 )
-// for test and test
+// for
 func ExampleAvg()  {
 	payment := []types.Payment {
 		{

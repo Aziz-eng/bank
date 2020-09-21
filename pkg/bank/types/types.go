@@ -1,13 +1,17 @@
 package types
 
+
 // Category представлет собой категорию где был совершен платеж.
 type Category string
+
 
 // Payment is informed about payments.
 type Payment struct {
 	ID int
 	Amount Money
+
 	Category Category
+
 }
 
 
